@@ -1,0 +1,24 @@
+p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.productsImg{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+}
+
+.commanWidth{
+  width: 60%;
+}
+
+.commanFonts{
+  font-size: .8rem;
+}
+
+.productsTitle{
+  width: 100%;
+  height: 80px;
+}
