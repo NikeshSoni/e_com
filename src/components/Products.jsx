@@ -38,7 +38,7 @@ const Products = () => {
                                             <p> Price - $ {items.price}</p>
                                     </div>
                                     
-                                    <Button className="my-2" onClick={handleCart}  variant="info">
+                                    <Button className="my-2"  variant="info">
                                         Add To Cart
                                     </Button>
                                 </div>
