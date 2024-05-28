@@ -9,12 +9,18 @@ import Store from './store/Store';
 
 
 
+
 function App() {
+
+ 
+
   return (
     <>
          <Provider store={Store}>
             <HashRouter>
-                <Header />
+                <Header 
+                     
+                      />
                     <Routes>
                         <Route path='/' element={<Home />}></Route>
                         <Route path='/cart' element={<Cart/>}></Route>

@@ -8,7 +8,7 @@ const Home = ({handleScore , count}) => {
 
      return(
         <>
-            <Products /> 
+            {/* <Products />  */}
         </>
      )
 }
