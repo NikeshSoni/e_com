@@ -1,8 +1,6 @@
 
 import { useState , useEffect } from "react";
 import {Container , Row , Button} from 'react-bootstrap';
-import Header from "./Navbar";
-import App from "../App";
 
 const Products = ({setStoreApi , filterData}) => {
     
@@ -20,6 +18,7 @@ const Products = ({setStoreApi , filterData}) => {
         apiData()
     },[])
 
+    console.log(filterData);
     return(
               <>
                 <Container>

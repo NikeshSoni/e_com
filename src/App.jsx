@@ -7,22 +7,14 @@ import Header from './components/Navbar';
 import {Provider}  from 'react-redux'
 import Store from './store/Store';
 
-
-
-
 function App() {
-
- 
 
   return (
     <>
          <Provider store={Store}>
             <HashRouter>
-                <Header 
-                     
-                      />
+                <Header/>
                     <Routes>
-                        <Route path='/' element={<Home />}></Route>
                         <Route path='/cart' element={<Cart/>}></Route>
                     </Routes>
               </HashRouter>

@@ -5,11 +5,7 @@ import { Link } from 'react-router-dom';
 import Products from './Products';
 import {useEffect , useState} from 'react'
 
-
-
 const Header = () => {
-
-   
 
     const [storeApi , setStoreApi ] = useState([]);
     const [filter , setFilter ] = useState('');
@@ -21,7 +17,6 @@ const Header = () => {
                 data.title.toLowerCase().includes(filter.toLowerCase())
             )
         )
-
     } , [filter , storeApi]);
    
     return(

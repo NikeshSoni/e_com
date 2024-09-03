@@ -2,13 +2,11 @@ import Products from "../components/Products"
 
 
 
-const Home = ({handleScore , count}) => {
-
-    
+const Home = () => {
 
      return(
         <>
-            {/* <Products />  */}
+            <Products /> 
         </>
      )
 }
